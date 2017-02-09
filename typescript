@@ -1,0 +1,582 @@
+Script started on Tue 31 Jan 2017 02:08:40 PM HST
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ ^C
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ exitmysql --user=root -pexit[K[Kpython -v
+# installing zipimport hook
+import zipimport # builtin
+# installed zipimport hook
+# /usr/lib/python2.7/site.pyc matches /usr/lib/python2.7/site.py
+import site # precompiled from /usr/lib/python2.7/site.pyc
+# /usr/lib/python2.7/os.pyc matches /usr/lib/python2.7/os.py
+import os # precompiled from /usr/lib/python2.7/os.pyc
+import errno # builtin
+import posix # builtin
+# /usr/lib/python2.7/posixpath.pyc matches /usr/lib/python2.7/posixpath.py
+import posixpath # precompiled from /usr/lib/python2.7/posixpath.pyc
+# /usr/lib/python2.7/stat.pyc matches /usr/lib/python2.7/stat.py
+import stat # precompiled from /usr/lib/python2.7/stat.pyc
+# /usr/lib/python2.7/genericpath.pyc matches /usr/lib/python2.7/genericpath.py
+import genericpath # precompiled from /usr/lib/python2.7/genericpath.pyc
+# /usr/lib/python2.7/warnings.pyc matches /usr/lib/python2.7/warnings.py
+import warnings # precompiled from /usr/lib/python2.7/warnings.pyc
+# /usr/lib/python2.7/linecache.pyc matches /usr/lib/python2.7/linecache.py
+import linecache # precompiled from /usr/lib/python2.7/linecache.pyc
+# /usr/lib/python2.7/types.pyc matches /usr/lib/python2.7/types.py
+import types # precompiled from /usr/lib/python2.7/types.pyc
+# /usr/lib/python2.7/UserDict.pyc matches /usr/lib/python2.7/UserDict.py
+import UserDict # precompiled from /usr/lib/python2.7/UserDict.pyc
+# /usr/lib/python2.7/_abcoll.pyc matches /usr/lib/python2.7/_abcoll.py
+import _abcoll # precompiled from /usr/lib/python2.7/_abcoll.pyc
+# /usr/lib/python2.7/abc.pyc matches /usr/lib/python2.7/abc.py
+import abc # precompiled from /usr/lib/python2.7/abc.pyc
+# /usr/lib/python2.7/_weakrefset.pyc matches /usr/lib/python2.7/_weakrefset.py
+import _weakrefset # precompiled from /usr/lib/python2.7/_weakrefset.pyc
+import _weakref # builtin
+# /usr/lib/python2.7/copy_reg.pyc matches /usr/lib/python2.7/copy_reg.py
+import copy_reg # precompiled from /usr/lib/python2.7/copy_reg.pyc
+# /usr/lib/python2.7/traceback.pyc matches /usr/lib/python2.7/traceback.py
+import traceback # precompiled from /usr/lib/python2.7/traceback.pyc
+# /usr/lib/python2.7/sysconfig.pyc matches /usr/lib/python2.7/sysconfig.py
+import sysconfig # precompiled from /usr/lib/python2.7/sysconfig.pyc
+# /usr/lib/python2.7/re.pyc matches /usr/lib/python2.7/re.py
+import re # precompiled from /usr/lib/python2.7/re.pyc
+# /usr/lib/python2.7/sre_compile.pyc matches /usr/lib/python2.7/sre_compile.py
+import sre_compile # precompiled from /usr/lib/python2.7/sre_compile.pyc
+import _sre # builtin
+# /usr/lib/python2.7/sre_parse.pyc matches /usr/lib/python2.7/sre_parse.py
+import sre_parse # precompiled from /usr/lib/python2.7/sre_parse.pyc
+# /usr/lib/python2.7/sre_constants.pyc matches /usr/lib/python2.7/sre_constants.py
+import sre_constants # precompiled from /usr/lib/python2.7/sre_constants.pyc
+import _locale # builtin
+# /usr/lib/python2.7/_sysconfigdata.pyc matches /usr/lib/python2.7/_sysconfigdata.py
+import _sysconfigdata # precompiled from /usr/lib/python2.7/_sysconfigdata.pyc
+# /usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd.pyc matches /usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd.py
+import _sysconfigdata_nd # precompiled from /usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd.pyc
+# /usr/lib/python2.7/sitecustomize.pyc matches /usr/lib/python2.7/sitecustomize.py
+import sitecustomize # precompiled from /usr/lib/python2.7/sitecustomize.pyc
+import encodings # directory /usr/lib/python2.7/encodings
+# /usr/lib/python2.7/encodings/__init__.pyc matches /usr/lib/python2.7/encodings/__init__.py
+import encodings # precompiled from /usr/lib/python2.7/encodings/__init__.pyc
+# /usr/lib/python2.7/codecs.pyc matches /usr/lib/python2.7/codecs.py
+import codecs # precompiled from /usr/lib/python2.7/codecs.pyc
+import _codecs # builtin
+# /usr/lib/python2.7/encodings/aliases.pyc matches /usr/lib/python2.7/encodings/aliases.py
+import encodings.aliases # precompiled from /usr/lib/python2.7/encodings/aliases.pyc
+# /usr/lib/python2.7/encodings/utf_8.pyc matches /usr/lib/python2.7/encodings/utf_8.py
+import encodings.utf_8 # precompiled from /usr/lib/python2.7/encodings/utf_8.pyc
+Python 2.7.12 (default, Nov 19 2016, 06:48:10) 
+[GCC 5.4.0 20160609] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+dlopen("/usr/lib/python2.7/lib-dynload/readline.x86_64-linux-gnu.so", 2);
+import readline # dynamically loaded from /usr/lib/python2.7/lib-dynload/readline.x86_64-linux-gnu.so
+>>> 
+KeyboardInterrupt
+>>> exit ()
+# clear __builtin__._
+# clear sys.path
+# clear sys.argv
+# clear sys.ps1
+# clear sys.ps2
+# clear sys.exitfunc
+# clear sys.exc_type
+# clear sys.exc_value
+# clear sys.exc_traceback
+# clear sys.last_type
+# clear sys.last_value
+# clear sys.last_traceback
+# clear sys.path_hooks
+# clear sys.path_importer_cache
+# clear sys.meta_path
+# clear sys.flags
+# clear sys.float_info
+# restore sys.stdin
+# restore sys.stdout
+# restore sys.stderr
+# cleanup __main__
+# cleanup[1] encodings
+# cleanup[1] site
+# cleanup[1] sysconfig
+# cleanup[1] abc
+# cleanup[1] _weakrefset
+# cleanup[1] sre_constants
+# cleanup[1] re
+# cleanup[1] _codecs
+# cleanup[1] _warnings
+# cleanup[1] zipimport
+# cleanup[1] _sysconfigdata
+# cleanup[1] encodings.utf_8
+# cleanup[1] codecs
+# cleanup[1] readline
+# cleanup[1] _sysconfigdata_nd
+# cleanup[1] _locale
+# cleanup[1] sitecustomize
+# cleanup[1] signal
+# cleanup[1] traceback
+# cleanup[1] posix
+# cleanup[1] encodings.aliases
+# cleanup[1] exceptions
+# cleanup[1] _weakref
+# cleanup[1] sre_compile
+# cleanup[1] _sre
+# cleanup[1] sre_parse
+# cleanup[2] copy_reg
+# cleanup[2] posixpath
+# cleanup[2] errno
+# cleanup[2] _abcoll
+# cleanup[2] types
+# cleanup[2] genericpath
+# cleanup[2] stat
+# cleanup[2] warnings
+# cleanup[2] UserDict
+# cleanup[2] os.path
+# cleanup[2] linecache
+# cleanup[2] os
+# cleanup sys
+# cleanup __builtin__
+# cleanup ints: 19 unfreed ints
+# cleanup floats
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ python -h
+usage: python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Options and arguments (and corresponding environment variables):
+-B     : don't write .py[co] files on import; also PYTHONDONTWRITEBYTECODE=x
+-c cmd : program passed in as string (terminates option list)
+-d     : debug output from parser; also PYTHONDEBUG=x
+-E     : ignore PYTHON* environment variables (such as PYTHONPATH)
+-h     : print this help message and exit (also --help)
+-i     : inspect interactively after running script; forces a prompt even
+         if stdin does not appear to be a terminal; also PYTHONINSPECT=x
+-m mod : run library module as a script (terminates option list)
+-O     : optimize generated bytecode slightly; also PYTHONOPTIMIZE=x
+-OO    : remove doc-strings in addition to the -O optimizations
+-R     : use a pseudo-random salt to make hash() values of various types be
+         unpredictable between separate invocations of the interpreter, as
+         a defense against denial-of-service attacks
+-Q arg : division options: -Qold (default), -Qwarn, -Qwarnall, -Qnew
+-s     : don't add user site directory to sys.path; also PYTHONNOUSERSITE
+-S     : don't imply 'import site' on initialization
+-t     : issue warnings about inconsistent tab usage (-tt: issue errors)
+-u     : unbuffered binary stdout and stderr; also PYTHONUNBUFFERED=x
+         see man page for details on internal buffering relating to '-u'
+-v     : verbose (trace import statements); also PYTHONVERBOSE=x
+         can be supplied multiple times to increase verbosity
+-V     : print the Python version number and exit (also --version)
+-W arg : warning control; arg is action:message:category:module:lineno
+         also PYTHONWARNINGS=arg
+-x     : skip first line of source, allowing use of non-Unix forms of #!cmd
+-3     : warn about Python 3.x incompatibilities that 2to3 cannot trivially fix
+file   : program read from script file
+-      : program read from stdin (default; interactive mode if a tty)
+arg ...: arguments passed to program in sys.argv[1:]
+
+Other environment variables:
+PYTHONSTARTUP: file executed on interactive startup (no default)
+PYTHONPATH   : ':'-separated list of directories prefixed to the
+               default module search path.  The result is sys.path.
+PYTHONHOME   : alternate <prefix> directory (or <prefix>:<exec_prefix>).
+               The default module search path uses <prefix>/pythonX.X.
+PYTHONCASEOK : ignore case in 'import' statements (Windows).
+PYTHONIOENCODING: Encoding[:errors] used for stdin/stdout/stderr.
+PYTHONHASHSEED: if this variable is set to 'random', the effect is the same
+   as specifying the -R option: a random value is used to seed the hashes of
+   str, bytes and datetime objects.  It can also be set to an integer
+   in the range [0,4294967295] to get hash values with a predictable seed.
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ python
+Python 2.7.12 (default, Nov 19 2016, 06:48:10) 
+[GCC 5.4.0 20160609] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ python -hv[5Pexitmysql --user=root -p[6Psudo kill 1104mysql --user=root -pexit[Kpython -vh[K[Kpython -hv[5Pexitmysql --user=root -p[6Psudo kill 1104ps -fe | grep mysqlmysql --user=root -p[2Pcd test_db-master/[6PDownloads^C
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ ls
+[0m[01;34mcmds[0m  config.py  err.py  functions.py  ircbot.py  parser.py  typescript
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ python ircbot.py 
+Traceback (most recent call last):
+  File "ircbot.py", line 4, in <module>
+    import concurrent.futures
+ImportError: No module named concurrent.futures
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ pip
+The program 'pip' is currently not installed. You can install it by typing:
+sudo apt install python-pip
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ sudp [K[Ko a[K[K[K[K[K[Kapt-get install pip[K[K[Kpython-pip
+E: Could not open lock file /var/lib/dpkg/lock - open (13: Permission denied)
+E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ apt-get install python-pip[1@s[1@u[1@d[1@o[1@ 
+[sudo] password for administrator: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.4.0-38 linux-headers-4.4.0-38-generic linux-headers-4.4.0-45
+  linux-headers-4.4.0-45-generic linux-image-4.4.0-38-generic
+  linux-image-4.4.0-45-generic linux-image-extra-4.4.0-38-generic
+  linux-image-extra-4.4.0-45-generic ubuntu-core-launcher
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libpython-all-dev libpython-dev libpython2.7-dev python-all python-all-dev
+  python-dev python-pip-whl python-setuptools python-wheel python2.7-dev
+Suggested packages:
+  python-setuptools-doc
+The following NEW packages will be installed:
+  libpython-all-dev libpython-dev libpython2.7-dev python-all python-all-dev
+  python-dev python-pip python-pip-whl python-setuptools python-wheel
+  python2.7-dev
+0 upgraded, 11 newly installed, 0 to remove and 94 not upgraded.
+2 not fully installed or removed.
+Need to get 29.6 MB of archives.
+After this operation, 43.8 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+0% [Working]            Get:1 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython2.7-dev amd64 2.7.12-1ubuntu0~16.04.1 [27.8 MB]
+0% [1 libpython2.7-dev 2,609 B/27.8 MB 0%]                                          1% [1 libpython2.7-dev 217 kB/27.8 MB 1%]2% [1 libpython2.7-dev 903 kB/27.8 MB 3%]8% [1 libpython2.7-dev 3,110 kB/27.8 MB 11%]15% [1 libpython2.7-dev 5,373 kB/27.8 MB 19%]21% [1 libpython2.7-dev 7,618 kB/27.8 MB 27%]27% [1 libpython2.7-dev 9,913 kB/27.8 MB 36%]                                             33% [1 libpython2.7-dev 12.2 MB/27.8 MB 44%]37% [1 libpython2.7-dev 13.8 MB/27.8 MB 49%]43% [1 libpython2.7-dev 16.0 MB/27.8 MB 58%]47% [1 libpython2.7-dev 17.5 MB/27.8 MB 63%]51% [1 libpython2.7-dev 18.9 MB/27.8 MB 68%]55% [1 libpython2.7-dev 20.3 MB/27.8 MB 73%]                      3,202 kB/s 2s59% [1 libpython2.7-dev 21.8 MB/27.8 MB 78%]                      3,202 kB/s 2s63% [1 libpython2.7-dev 23.2 MB/27.8 MB 84%]                      3,202 kB/s 1s67% [1 libpython2.7-dev 24.8 MB/27.8 MB 89%]                      3,202 kB/s 1s71% [1 libpython2.7-dev 26.2 MB/27.8 MB 94%]                      3,202 kB/s 1s75% [1 libpython2.7-dev 27.8 MB/27.8 MB 100%]                     3,202 kB/s 0s77% [Working]                                                     3,202 kB/s 0s                                                                               Get:2 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libpython-dev amd64 2.7.11-1 [7,728 B]
+77% [2 libpython-dev 1,168 B/7,728 B 15%]                         3,202 kB/s 0s79% [Waiting for headers]                                         3,202 kB/s 0s                                                                               Get:3 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 libpython-all-dev amd64 2.7.11-1 [992 B]
+79% [3 libpython-all-dev 992 B/992 B 100%]                        3,202 kB/s 0s81% [Waiting for headers]                                         3,202 kB/s 0s                                                                               Get:4 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 python-all amd64 2.7.11-1 [978 B]
+81% [4 python-all 978 B/978 B 100%]                               3,202 kB/s 0s83% [Waiting for headers]                                         3,202 kB/s 0s                                                                               Get:5 http://us.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python2.7-dev amd64 2.7.12-1ubuntu0~16.04.1 [276 kB]
+83% [5 python2.7-dev 1,535 B/276 kB 1%]                           3,202 kB/s 0s85% [Working]                                                     3,202 kB/s 0s                                                                               Get:6 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 python-dev amd64 2.7.11-1 [1,160 B]
+87% [Waiting for headers]                                         3,202 kB/s 0s                                                                               Get:7 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 python-all-dev amd64 2.7.11-1 [1,000 B]
+89% [Waiting for headers]                                         3,202 kB/s 0s                                                                               Get:8 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 python-pip-whl all 8.1.1-2ubuntu0.4 [1,110 kB]
+89% [8 python-pip-whl 18.5 kB/1,110 kB 2%]                        3,202 kB/s 0s94% [Working]                                                     3,202 kB/s 0s                                                                               Get:9 http://us.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 python-pip all 8.1.1-2ubuntu0.4 [144 kB]
+94% [9 python-pip 4,577 B/144 kB 3%]                              3,202 kB/s 0s96% [Working]                                                     3,202 kB/s 0s                                                                               Get:10 http://us.archive.ubuntu.com/ubuntu xenial/main amd64 python-setuptools all 20.7.0-1 [169 kB]
+96% [10 python-setuptools 3,358 B/169 kB 2%]                      3,202 kB/s 0s98% [Working]                                                     3,202 kB/s 0s                                                                               Get:11 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 python-wheel all 0.29.0-1 [48.0 kB]
+98% [11 python-wheel 3,409 B/48.0 kB 7%]                          3,202 kB/s 0s100% [Working]                                                    3,202 kB/s 0s                                                                               Fetched 29.6 MB in 9s (3,015 kB/s)
+Selecting previously unselected package libpython2.7-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 428879 files and directories currently installed.)
+Preparing to unpack .../libpython2.7-dev_2.7.12-1ubuntu0~16.04.1_amd64.deb ...
+Unpacking libpython2.7-dev:amd64 (2.7.12-1ubuntu0~16.04.1) ...
+Selecting previously unselected package libpython-dev:amd64.
+Preparing to unpack .../libpython-dev_2.7.11-1_amd64.deb ...
+Unpacking libpython-dev:amd64 (2.7.11-1) ...
+Selecting previously unselected package libpython-all-dev:amd64.
+Preparing to unpack .../libpython-all-dev_2.7.11-1_amd64.deb ...
+Unpacking libpython-all-dev:amd64 (2.7.11-1) ...
+Selecting previously unselected package python-all.
+Preparing to unpack .../python-all_2.7.11-1_amd64.deb ...
+Unpacking python-all (2.7.11-1) ...
+Selecting previously unselected package python2.7-dev.
+Preparing to unpack .../python2.7-dev_2.7.12-1ubuntu0~16.04.1_amd64.deb ...
+Unpacking python2.7-dev (2.7.12-1ubuntu0~16.04.1) ...
+Selecting previously unselected package python-dev.
+Preparing to unpack .../python-dev_2.7.11-1_amd64.deb ...
+Unpacking python-dev (2.7.11-1) ...
+Selecting previously unselected package python-all-dev.
+Preparing to unpack .../python-all-dev_2.7.11-1_amd64.deb ...
+Unpacking python-all-dev (2.7.11-1) ...
+Selecting previously unselected package python-pip-whl.
+Preparing to unpack .../python-pip-whl_8.1.1-2ubuntu0.4_all.deb ...
+Unpacking python-pip-whl (8.1.1-2ubuntu0.4) ...
+Selecting previously unselected package python-pip.
+Preparing to unpack .../python-pip_8.1.1-2ubuntu0.4_all.deb ...
+Unpacking python-pip (8.1.1-2ubuntu0.4) ...
+Selecting previously unselected package python-setuptools.
+Preparing to unpack .../python-setuptools_20.7.0-1_all.deb ...
+Unpacking python-setuptools (20.7.0-1) ...
+Selecting previously unselected package python-wheel.
+Preparing to unpack .../python-wheel_0.29.0-1_all.deb ...
+Unpacking python-wheel (0.29.0-1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up mysql-server-5.7 (5.7.17-0ubuntu0.16.04.1) ...
+Renaming removed key_buffer and myisam-recover options (if present)
+mysql_upgrade: Got error: 1045: Access denied for user 'debian-sys-maint'@'localhost' (using password: YES) while connecting to the MySQL server
+Upgrade process encountered error and will not continue.
+mysql_upgrade failed with exit status 11
+dpkg: error processing package mysql-server-5.7 (--configure):
+ subprocess installed post-installation script returned error exit status 1
+dpkg: dependency problems prevent configuration of mysql-server:
+ mysql-server depends on mysql-server-5.7; however:
+  Package mysql-server-5.7 is not configured yet.
+
+dpkg: error processing package mysql-server (--configure):
+ dependency problems - leaving unconfigured
+Setting up libpython2.7-dev:amd64 (2.7.12-1ubuntu0~16.04.1) ...
+No apport report written because the error message indicates its a followup error from a previous failure.
+Setting up libpython-dev:amd64 (2.7.11-1) ...
+Setting up libpython-all-dev:amd64 (2.7.11-1) ...
+Setting up python-all (2.7.11-1) ...
+Setting up python2.7-dev (2.7.12-1ubuntu0~16.04.1) ...
+Setting up python-dev (2.7.11-1) ...
+Setting up python-all-dev (2.7.11-1) ...
+Setting up python-pip-whl (8.1.1-2ubuntu0.4) ...
+Setting up python-pip (8.1.1-2ubuntu0.4) ...
+Setting up python-setuptools (20.7.0-1) ...
+Setting up python-wheel (0.29.0-1) ...
+Errors were encountered while processing:
+ mysql-server-5.7
+ mysql-server
+E: Sub-process /usr/bin/dpkg returned an error code (1)
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ sudo apt-get install python-pip[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpip[Kython ircbot.py ip[K install futures
+Collecting futures
+  Downloading futures-3.0.5-py2-none-any.whl
+Installing collected packages: futures
+Successfully installed futures
+[33mYou are using pip version 8.1.1, however version 9.0.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.[0m
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ pip install futuressudo apt-get install python-pip[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpip[Kython ircbot.py 
+Log directory created
+Connected to chat.freenode.net:6667
+Joined: #ppybbot,#test-chan
+^C
+Closing: CTRL-c pressed!
+Traceback (most recent call last):
+  File "ircbot.py", line 151, in <module>
+    main()
+  File "ircbot.py", line 141, in main
+    run(socket, config.channels, config.cmds, config.current_nick)
+  File "ircbot.py", line 24, in run
+    receive = socket.recv(4096)
+socket.error: [Errno 4] Interrupted system call
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ ls
+[0m[01;34mcmds[0m       config.pyc  err.pyc       functions.pyc  parser.py   typescript
+config.py  err.py      functions.py  ircbot.py      parser.pyc
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ vi config.py
+[?1049h[?1h=[1;46r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[46;1H"config.py" 74 lines, 1516 characters[1;1Himport os
+import os.path
+import time
+import logging
+
+# some commands can be executed only if the user's nick is found in this list
+owner = list(set([
+    'paullik',
+    'foobarfoo',
+    'paullik-test',
+]))
+
+owner_email = {
+    'foobarfoo': 'foobar@gmail.com',
+}
+
+# server to connect to
+server = 'chat.freenode.net'
+# server's port
+port = 6667
+
+# bot's nicknames
+nicks = list(set(['PPyBot']))
+# bot's real name
+real_name = 'Paul Python Bot'
+
+# channels to join on startup
+channels = list(set([
+    '#ppybbot',
+    '#test-chan',
+]))
+
+cmds = {
+    # core commands list, these commands will be run in the same thread as the bb[35;1Hot
+    # and will have acces to the socket that the bot uses
+    'core': list(set([[38;9H'quit',[39;9H'join',[40;9H'channels',
+    ])),[43;5H# normal commands list, the ones that are accessible to any user
+    'user': list(set([[45;9H'task',[1;1H[?12l[?25h[?25l[46;1H[1mrecording @q[m[46;13H[K[1;1H[?12l[?25h[?25l[46;1H[K[1;1H[?12l[?25h[?25l[46;1H[1mrecording @q[1;1H[?12l[?25h[?25l[m[46;1H[K[1;1H[?12l[?25h[?25l[46;1H[1mrecording @q[1;1H[?12l[?25h[?25l[m[46;1H[K[1;1H[?12l[?25h[?25l[46;1H:[?12l[?25hq[?25l[46;1H[K[46;1H[?1l>[?12l[?25h[?1049l]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ ifconfig
+enp3s0    Link encap:Ethernet  HWaddr 00:19:b9:30:d0:0b  
+          inet addr:192.168.168.11  Bcast:192.168.168.255  Mask:255.255.255.0
+          inet6 addr: fe80::d589:3caa:e160:ce54/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:24706 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:15231 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:37157649 (37.1 MB)  TX bytes:1159592 (1.1 MB)
+          Interrupt:16 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:451 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:451 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:41856 (41.8 KB)  TX bytes:41856 (41.8 KB)
+
+virbr0    Link encap:Ethernet  HWaddr 00:00:00:00:00:00  
+          inet addr:192.168.122.1  Bcast:192.168.122.255  Mask:255.255.255.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ ping 192.168.168.201
+PING 192.168.168.201 (192.168.168.201) 56(84) bytes of data.
+64 bytes from 192.168.168.201: icmp_seq=1 ttl=64 time=0.917 ms
+^C
+--- 192.168.168.201 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.917/0.917/0.917/0.000 ms
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ ifconf[K[K[K[K[K[Kls
+[0m[01;34mcmds[0m       config.pyc  err.pyc       functions.pyc  parser.py   typescript
+config.py  err.py      functions.py  ircbot.py      parser.pyc
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ vi config.py
+[?1049h[?1h=[1;46r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[46;1H"config.py" 74 lines, 1516 characters[1;1Himport os
+import os.path
+import time
+import logging
+
+# some commands can be executed only if the user's nick is found in this list
+owner = list(set([
+    'paullik',
+    'foobarfoo',
+    'paullik-test',
+]))
+
+owner_email = {
+    'foobarfoo': 'foobar@gmail.com',
+}
+
+# server to connect to
+server = 'chat.freenode.net'
+# server's port
+port = 6667
+
+# bot's nicknames
+nicks = list(set(['PPyBot']))
+# bot's real name
+real_name = 'Paul Python Bot'
+
+# channels to join on startup
+channels = list(set([
+    '#ppybbot',
+    '#test-chan',
+]))
+
+cmds = {
+    # core commands list, these commands will be run in the same thread as the bb[35;1Hot
+    # and will have acces to the socket that the bot uses
+    'core': list(set([[38;9H'quit',[39;9H'join',[40;9H'channels',
+    ])),[43;5H# normal commands list, the ones that are accessible to any user
+    'user': list(set([[45;9H'task',[1;1H[?12l[?25h
+
+
+
+
+
+
+[7;1H
+
+
+
+[10;1H[?25l[11;45r[11;1H[L[1;46r[11;5H'paullik-test',[46;1H[K[11;5H[?12l[?25h'[?25laullik-test',[11;19H[K[11;6H[?12l[?25h[?25lullik-test',[11;18H[K[11;6H[?12l[?25h[?25lllik-test',[11;17H[K[11;6H[?12l[?25h[?25llik-test',[11;16H[K[11;6H[?12l[?25h[?25lik-test',[11;15H[K[11;6H[?12l[?25h[?25lk-test',[11;14H[K[11;6H[?12l[?25h[?25l-test',[11;13H[K[11;6H[?12l[?25h[?25ltest',[11;12H[K[11;6H[?12l[?25h[?25lest',[11;11H[K[11;6H[?12l[?25h[?25lst',[11;10H[K[11;6H[?12l[?25h[?25lt',[11;9H[K[11;6H[?12l[?25h[?25l',[11;8H[K[11;6H[?12l[?25h[?25ld',[?12l[?25h[?25la',[?12l[?25h[?25ln',[?12l[?25h[?25l[12;45r[12;1H[L[1;46r[12;5H'dan',    [?12l[?25h'[?25lan',[12;10H[K[12;6H[?12l[?25h[?25ln',[12;9H[K[12;6H[?12l[?25h[?25l',[12;8H[K[12;6H[?12l[?25h[?25la',[?12l[?25h[?25ln',[?12l[?25h[?25ls',[?12l[?25h[?25lo',[?12l[?25h[?25ln',[?12l[?25h[?25l[13;45r[13;1H[L[1;46r[13;5H'anson',    [?12l[?25h'[?25lnson',[13;12H[K[13;6H[?12l[?25h[?25lson',[13;11H[K[13;6H[?12l[?25h[?25lon',[13;10H[K[13;6H[?12l[?25h[?25ln',[13;9H[K[13;6H[?12l[?25h[?25l',[13;8H[K[13;6H[?12l[?25h[?25lb',[?12l[?25h[?25lh',[?12l[?25h
+])
+[16;7H[17;7H
+
+[20;7H[21;7H = '[?25lhat.freenode.net'[21;28H[K[21;11H[?12l[?25h[?25lat.freenode.net'[21;27H[K[21;11H[?12l[?25h[?25lt.freenode.net'[21;26H[K[21;11H[?12l[?25h[?25l.freenode.net'[21;25H[K[21;11H[?12l[?25h[?25lfreenode.net'[21;24H[K[21;11H[?12l[?25h[?25lreenode.net'[21;23H[K[21;11H[?12l[?25h[?25leenode.net'[21;22H[K[21;11H[?12l[?25h[?25lenode.net'[21;21H[K[21;11H[?12l[?25h[?25lnode.net'[21;20H[K[21;11H[?12l[?25h[?25lode.net'[21;19H[K[21;11H[?12l[?25h[?25lde.net'[21;18H[K[21;11H[?12l[?25h[?25le.net'[21;17H[K[21;11H[?12l[?25h[?25l.net'[21;16H[K[21;11H[?12l[?25h[?25lnet'[21;15H[K[21;11H[?12l[?25h[?25let'[21;14H[K[21;11H[?12l[?25h[?25lt'[21;13H[K[21;11H[?12l[?25h[?25l'[21;12H[K[21;11H[?12l[?25h[?25l1'[?12l[?25h[?25l9'[?12l[?25h[?25l2'[?12l[?25h[?25l.'[?12l[?25h[?25l1'[?12l[?25h[?25l6'[?12l[?25h[?25l8'[?12l[?25h[?25l.'[?12l[?25h[?25l1'[?12l[?25h[?25l6'[?12l[?25h[?25l8'[?12l[?25h[?25l.'[?12l[?25h[?25l2'[?12l[?25h[?25l0'[?12l[?25h[?25l1'[?12l[?25h[22;15H[23;11H
+[25;17H[26;25H[27;17H[28;25H
+[30;25H[31;21H[32;15H[33;17H
+])
+[36;8H[37;25H[39;25H[40;22H[41;15H[42;15H[43;19H[44;8H
+[?25l[1;45r[45;1H
+[1;46r[45;5H# normal commands list, the ones that are accessible to any user[45;25H[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;5H'user': list(set([[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;9H'task',[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;9H'wiki',[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;9H'answer',[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;9H'about',[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;9H'help',[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;9H'weather',[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;9H'google',[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;9H'mball',[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;9H'uptime',[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;9H'so',[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;9H'twitter',[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;5H])),[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;1H[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;5H# commands list that the bot will execute even if a human didn't request an[45;25H[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;5H# action[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;5H'auto': list(set([[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;9H'email_alert',[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;5H])),[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;1H}[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;1H[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;1H# smtp server for email_alert[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;1Hsmtp_server = 'smtp.gmail.com'[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;1Hsmtp_port = 25[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;1Hfrom_email_address = 'changeme@gmail.com'[45;25H[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;1Hfrom_email_password = 'p@s$w0rd'[45;25H[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;1H[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;1H# users should NOT modify below![45;25H[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;1Hlog = os.path.join(os.getcwd(), '..', 'logs', '')[45;25H[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;1Hlogging_level = logging.DEBUG[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;1Hstart_time = time.time()[?12l[?25h[?25l[1;45r[45;1H
+[1;46r[45;1Hcurrent_nick = ''[?12l[?25h[?25l
+:[?12l[?25hwq[?25l"config.py" 77 lines, 1548 characters written
+[?1l>[?12l[?25h[?1049l]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ vi config.pyls[Kping 192.168.168.201[12Pifconfigvi config.pyls[Kpython ircbot.py 
+Connected to 192.168.168.201:6667
+Joined: #ppybbot,#test-chan
+^C
+Closing: CTRL-c pressed!
+ 
+
+
+
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^X^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+^C
+Closing: CTRL-c pressed!
+
+
+exit
+g Terminated
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ 
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ 
+]0;administrator@KellerLab: ~/ics355/IRC-Bot/src[01;32madministrator@KellerLab[00m:[01;34m~/ics355/IRC-Bot/src[00m$ exit
+exit
+
+Script done on Tue 31 Jan 2017 02:21:36 PM HST
