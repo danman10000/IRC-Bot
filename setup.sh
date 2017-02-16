@@ -10,4 +10,5 @@ rm -rf ~/ics355_botnet
 mkdir ~/ics355_botnet
 cd ~/ics355_botnet
 git clone https://github.com/danman10000/IRC-Bot.git
-sudo python ~/ics355_botnet/IRC-Bot/src/ircbot.py
+echo "sudo python ~/ics355_botnet/IRC-Bot/src/ircbot.py" > ~/ics355_run_bot.sh
+chmod +x ~/ics355_run_bot.sh
