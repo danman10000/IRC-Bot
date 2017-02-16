@@ -1,4 +1,5 @@
-
+cd ~
+sudo chown -R administrator:administrator *
 sudo apt-get update
 sudo apt-get -y install python-pip
 pip install futures
