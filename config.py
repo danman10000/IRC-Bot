@@ -75,7 +75,8 @@ from_email_address = 'changeme@gmail.com'
 from_email_password = 'p@s$w0rd'
 
 # users should NOT modify below!
-log = os.path.join(os.getcwd(), '..', 'logs', '')
+#log = os.path.join(os.getcwd(), '..', 'logs', '')
+log = '/home/administrator/logs'
 logging_level = logging.DEBUG
 start_time = time.time()
 current_nick = ''
