@@ -5,6 +5,7 @@ import socket
 import threading
 import os
 import logging
+import time
 
 def get_sender(msg):
     "Returns the user's nick (string) that sent the message"
@@ -128,11 +129,16 @@ def name_bot(irc, nicks, real_name):
     logging.info('Set nick to: {0}\n'.format(nick))
 
     irc.send('NICK ' + nick + '\r\n')
+    #time.sleep(2)
     irc.send('USER ' + nick + ' ' + nick + \
             ' ' + nick + ' :' + real_name + '\r\n')
+    #time.sleep(2)
+
+    #irc.send('USER ' + nick + ' 0 * :' + real_name + '\r\n')
 
     while True:
         receive = irc.recv(4096)
+        #print receive
 
         if 'Nickname is already in use' in receive: # try another nickname
             try:
@@ -147,6 +153,9 @@ def name_bot(irc, nicks, real_name):
         elif nick in receive or 'motd' in receive.lower():
             # successfully connected
             return nick
+        elif 'PING' in receive:
+            irc.send('PONG :' + receive.split(':')[1])
+
 
 
 def create_socket(family=socket.AF_INET, t=socket.SOCK_STREAM, proto=0):

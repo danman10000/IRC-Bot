@@ -5,9 +5,10 @@ import logging
 
 # some commands can be executed only if the user's nick is found in this list
 owner = list(set([
-    'paullik',
     'foobarfoo',
-    'paullik-test',
+    'dan',
+    'anson',
+    'bh',
 ]))
 
 owner_email = {
@@ -15,14 +16,19 @@ owner_email = {
 }
 
 # server to connect to
-server = 'chat.freenode.net'
+server = '192.168.168.201'
+#server = '10.4.0.174'
+#server = raw_input("What is the IP of the IRC server? ")
 # server's port
 port = 6667
 
 # bot's nicknames
-nicks = list(set(['PPyBot']))
+#nicks = list(set(['PPyBot']))
+nicks = raw_input("Enter your bot's nicknames(letters only and no spaces): ")
+nicks = list(set([nicks]))
 # bot's real name
-real_name = 'Paul Python Bot'
+#real_name = 'Paul Python Bot'
+real_name = raw_input("What is your real name or user id (spaces and numbers allowed): ")
 
 # channels to join on startup
 channels = list(set([
@@ -52,6 +58,7 @@ cmds = {
         'uptime',
         'so',
         'twitter',
+        'dos',
     ])),
 
     # commands list that the bot will execute even if a human didn't request an
@@ -68,7 +75,8 @@ from_email_address = 'changeme@gmail.com'
 from_email_password = 'p@s$w0rd'
 
 # users should NOT modify below!
-log = os.path.join(os.getcwd(), '..', 'logs', '')
+#log = os.path.join(os.getcwd(), '..', 'logs', '')
+log = '/home/administrator/logs'
 logging_level = logging.DEBUG
 start_time = time.time()
 current_nick = ''

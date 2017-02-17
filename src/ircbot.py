@@ -90,6 +90,7 @@ def run(socket, channels, cmds, nick):
                 # core command response should be sent, every other response is
                 # sent when the futures finish working from their respective
                 # thread
+                #logging.debug("Responding:" + response)
                 send_response(response, to, socket)
 
                 buff = ''
