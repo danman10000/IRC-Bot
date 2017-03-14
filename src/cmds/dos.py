@@ -30,7 +30,7 @@ def dos(components): # !dos <city> or !dos <city>, <state or country>
 
         return response.encode('utf8')
     except:
-       response = 'Usage: !dos IP'
+        response = 'Usage: !dos IP'
         print "Exception - If a broken pipe caused this then you probably knocked it over!"
         return "Exception"
 
